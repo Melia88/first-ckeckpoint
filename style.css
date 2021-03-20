@@ -1,0 +1,33 @@
+/* Red Line Outline Start */
+* {
+  outline: solid 1px red;
+}
+/* Red Line Outline End */
+
+
+
+.floating-card  {
+  position:absolute;
+  bottom: -1.5rem;
+  right:15rem;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  
+  .floating-parent{
+    background-size: cover;
+    min-height: 35vh;
+    position: relative;
+  }
+}
+
+.row-1{
+  background-image: url(https://images.unsplash.com/photo-1612565775767-97a9fffef857?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1078&q=80);
+  background-size: cover;
+  background-position: center;
+  min-height: 35vh;
+  position: relative;
+}
+
