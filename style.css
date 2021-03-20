@@ -10,6 +10,7 @@
   position:absolute;
   bottom: -1.5rem;
   right:15rem;
+  z-index: 1;
 }
 
 
