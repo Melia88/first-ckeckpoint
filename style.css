@@ -30,4 +30,9 @@
   min-height: 35vh;
   position: relative;
 }
-
+h3 {
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Tangerine', cursive;
+  font-size: 300%;
+}
