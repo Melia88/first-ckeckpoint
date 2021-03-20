@@ -15,8 +15,9 @@
   }
   .floating-card  {
     position:absolute;
-    bottom: -1.5rem;
-    right:15rem;
+    bottom: -3rem;
+    right:5rem;
+    left:2rem;
     z-index: 1;
   }
   
@@ -35,4 +36,11 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Tangerine', cursive;
   font-size: 300%;
+}
+
+/* TEXT SHADOW NOT WORKING */
+.text-shadow{
+ 
+    text-shadow: 1px 5px 5px black;
+  
 }
