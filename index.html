@@ -31,7 +31,7 @@
 <!-- box1 structure done-->
   <div class="row-1 flex-flow: row p-2 bg-main-image ">
     <div class="col-md-4 p-5"><p class="text-light">Ignite your life</p>
-      <div class="card">
+      <div class="card p-2">
         <div class:="less subtle heading"><b style="padding-left: 5%;">Lets Connect!</b>
           <form>
             <div class="form-group">
@@ -42,16 +42,17 @@
                   <label class="sr-only" for="inputEmail">Email</label>
                   <input type="password" class="form-control" id="inputPassword" placeholder="Password">
               </div>
-            <div class="form-inline">
-              <div class="form-group mr-2">
-                  <label class="sr-only" for="inputPhoneNumber">Phone Number</label>
+            <div class="row justify-content-equally">
+              <div class="col-7 form-group mb-3 pl-3">
+                  <label class="sr-only " for="inputPhoneNumber">Phone Number</label>
                   <input type="PhoneNumber" class="form-control" id="inputPhoneNumber" placeholder="PhoneNumber">
               </div>
-              <div class="form-group">
+              <div class="col-3 form-group mb-3 px-0">
                   <label class="sr-only" for="inputExt">Ext</label>
                   <input type="ext" class="form-control" id="inputExt" placeholder="ext">
               </div>
             </div>
+            
             <textarea name="career[message]" class="form-control" tabindex="4"
                   placeholder="Write your details" required></textarea>
               <div class="form-group">
