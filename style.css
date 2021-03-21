@@ -1,7 +1,7 @@
 /* Red Line Outline Start */
-* {
-  outline: solid 1px red;
-}
+/* * { */ */
+  /* outline: solid 1px red; */
+/* } */
 /* Red Line Outline End */
 
 
@@ -43,4 +43,46 @@ h3 {
  
     text-shadow: 1px 5px 5px black;
   
+}
+
+
+/* .card-left{ */
+  /* height: 10rem; */
+  /* width: 10rem; */
+  /* margin: auto; */
+  /* padding-top: 15%; */
+  /* border-radius: 25%; */
+  /* box-shadow: 0 0 1rem .5rem black; */
+  /* border-style: solid; */
+  /* border-width: medium; */
+/* } */
+
+.cl {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-left{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+
+.cr {
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-right{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+
+.f2{
+  word-spacing:.5rem;
 }
