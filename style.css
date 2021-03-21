@@ -1,5 +1,5 @@
 /* Red Line Outline Start */
-/* * { */ */
+/* * { */ 
   /* outline: solid 1px red; */
 /* } */
 /* Red Line Outline End */
@@ -7,7 +7,6 @@
 
 
 @media only screen and (min-width: 768px) {
-  
   .floating-parent{
     background-size: cover;
     min-height: 35vh;
@@ -20,8 +19,6 @@
     left:2rem;
     z-index: 1;
   }
-  
-
 }
 
 .row-1{
@@ -36,13 +33,6 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Tangerine', cursive;
   font-size: 300%;
-}
-
-/* TEXT SHADOW NOT WORKING */
-.text-shadow{
- 
-    text-shadow: 1px 5px 5px black;
-  
 }
 
 
@@ -86,3 +76,4 @@ h3 {
 .f2{
   word-spacing:.5rem;
 }
+
